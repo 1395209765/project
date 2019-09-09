@@ -22,4 +22,10 @@ public class MyTest {
 		String html = StringUtil.isHtml("ÄãºÃ\r\n¹ùêÌÇåHellow");
 		System.out.println(html);
 	}
+
+	@Test
+	public void testNull() {
+		boolean null1 = StringUtil.isNull(null);
+		System.out.println(null1);
+	}
 }

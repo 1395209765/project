@@ -44,4 +44,14 @@ public class StringUtil {
 		}
 		return false;
 	}
+
+	/*
+	 * ÅÐ¶Ï²»Îª¿Õ
+	 */
+	public static boolean isNull(String string) {
+		if (string != null && string != "") {
+			return true;
+		}
+		return false;
+	}
 }
